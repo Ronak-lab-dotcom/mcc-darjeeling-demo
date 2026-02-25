@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCC Darjeeling | Coaching Centre</title>
+  <meta name="description" content="MCC Darjeeling coaching centre homepage template for JEE, NEET and Class 12 Science preparation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Top navigation bar with logo image, links, and mobile menu button -->
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <!-- Replaced text-based brand with image logo; store your provided file at images/mcc-logo.jpg -->
+      <a class="brand" href="#home" aria-label="MCC Darjeeling home">
+        <img class="brand-logo" src="images/logo.jpg" alt="MCC Darjeeling logo">
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="primaryMenu" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="primaryMenu">
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Admission urgency banner shown directly below the navbar -->
+    <div class="admission-banner" role="status" aria-live="polite">
+      Admissions Open for 2026 Batch - Limited Seats Available
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- Hero section with headline, description, and WhatsApp call-to-action -->
+    <section class="hero section">
+      <div class="container hero-content">
+        <p class="hero-tag">Trusted Coaching in Darjeeling</p>
+        <h1>Build Your Future With MCC Darjeeling</h1>
+        <p class="hero-subtext">
+          Structured classes, expert mentorship, and regular test series for JEE, NEET, and board excellence.
+        </p>
+        <a class="btn btn-whatsapp" href="https://wa.me/917001517589" target="_blank" rel="noopener noreferrer">
+          Inquire on WhatsApp
+        </a>
+        <!-- Trust badge improves conversion confidence without changing layout complexity -->
+        <p class="hero-trust-badge">Trusted by 250+ Students</p>
+      </div>
+      <div class="hero-shape" aria-hidden="true"></div>
+    </section>
+
+    <!-- Horizontal result summary strip above courses -->
+    <section class="section section-compact" id="results-highlights">
+      <div class="container">
+        <h2 class="section-title">Results Highlights</h2>
+        <div class="results-highlights">
+          <article class="highlight-box">
+            <p class="highlight-number">250+</p>
+            <p class="highlight-label">Students Enrolled</p>
+          </article>
+          <article class="highlight-box">
+            <p class="highlight-number">98%</p>
+            <p class="highlight-label">Board Success Rate</p>
+          </article>
+          <article class="highlight-box">
+            <p class="highlight-number">20+</p>
+            <p class="highlight-label">JEE Qualifiers</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses section with course cards and simple icons -->
+    <section class="section" id="courses">
+      <div class="container">
+        <h2 class="section-title">Courses We Offer</h2>
+        <p class="section-intro">Focused batches designed to match each student’s academic goals.</p>
+
+        <div class="course-grid">
+          <article class="card">
+            <div class="icon" aria-hidden="true">📘</div>
+            <h3>JEE (Main + Advanced)</h3>
+            <p>Concept-driven preparation in Physics, Chemistry, and Mathematics.</p>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">🧬</div>
+            <h3>NEET</h3>
+            <p>Comprehensive Biology, Physics, and Chemistry with chapter-wise tests.</p>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">🔬</div>
+            <h3>Class 12 Science</h3>
+            <p>Strong board preparation with regular revisions and doubt support.</p>
+          </article>
+          <article class="card">
+            <div class="icon" aria-hidden="true">🧠</div>
+            <h3>Foundation (Class 9-10)</h3>
+            <p>Early conceptual training to build confidence for competitive exams.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results and testimonials section with sample placeholders -->
+    <section class="section section-muted" id="results">
+      <div class="container">
+        <h2 class="section-title">Results & Testimonials</h2>
+        <p class="section-intro">Our students consistently deliver excellent results year after year.</p>
+
+        <div class="testimonial-grid">
+          <article class="testimonial">
+            <img src="https://via.placeholder.com/90x90.png?text=A" alt="Photo of student A">
+            <h3>Ananya Sharma</h3>
+            <p class="highlight">NEET 2025 Qualifier</p>
+            <p>"The daily tests and faculty support helped me stay focused and improve every week."</p>
+          </article>
+          <article class="testimonial">
+            <img src="https://via.placeholder.com/90x90.png?text=R" alt="Photo of student R">
+            <h3>Ritvik Sen</h3>
+            <p class="highlight">JEE Main 98.2 Percentile</p>
+            <p>"MCC gave me a clear study plan and regular mentoring that made a huge difference."</p>
+          </article>
+          <article class="testimonial">
+            <img src="https://via.placeholder.com/90x90.png?text=S" alt="Photo of student S">
+            <h3>Simran Pradhan</h3>
+            <p class="highlight">Class 12: 94.6%</p>
+            <p>"I loved the way difficult topics were broken into simple, understandable steps."</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Faculty section with compact profile cards -->
+    <section class="section" id="faculty">
+      <div class="container">
+        <h2 class="section-title">Meet Our Faculty</h2>
+        <p class="section-intro">Experienced mentors committed to student progress and discipline.</p>
+
+        <div class="faculty-grid">
+          <article class="faculty-card">
+            <img src="https://via.placeholder.com/120x120.png?text=PK" alt="Portrait of P. Kumar">
+            <h3>P. Kumar</h3>
+            <p>Physics Faculty</p>
+          </article>
+          <article class="faculty-card">
+            <img src="https://via.placeholder.com/120x120.png?text=AS" alt="Portrait of A. Singh">
+            <h3>A. Singh</h3>
+            <p>Chemistry Faculty</p>
+          </article>
+          <article class="faculty-card">
+            <img src="https://via.placeholder.com/120x120.png?text=MN" alt="Portrait of M. Nandi">
+            <h3>M. Nandi</h3>
+            <p>Biology Faculty</p>
+          </article>
+          <article class="faculty-card">
+            <img src="https://via.placeholder.com/120x120.png?text=RD" alt="Portrait of R. Dutta">
+            <h3>R. Dutta</h3>
+            <p>Mathematics Faculty</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section with details and a simple inquiry form -->
+    <section class="section section-muted" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-info">
+          <h2 class="section-title">Contact MCC Darjeeling</h2>
+          <p>Call or message us for batch timing, admission, and fee details.</p>
+          <ul>
+            <li><strong>Phone:</strong> <a href="tel:+917001517589">+91 70015 17589</a></li>
+            <li><strong>WhatsApp:</strong> <a href="https://wa.me/917001517589" target="_blank" rel="noopener noreferrer">Chat Now</a></li>
+            <li><strong>Email:</strong> <a href="mailto:info@mccdarjeeling.com">info@mccdarjeeling.com</a></li>
+          </ul>
+        </div>
+
+        <form id="inquiryForm" class="inquiry-form" novalidate>
+          <label for="name">Full Name *</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+          <label for="phone">Phone *</label>
+          <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+          <label for="course">Interested Course *</label>
+          <select id="course" name="course" required>
+            <option value="">Select a course</option>
+            <option value="jee">JEE</option>
+            <option value="neet">NEET</option>
+            <option value="class12">Class 12 Science</option>
+            <option value="foundation">Foundation (Class 9-10)</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Write your inquiry"></textarea>
+
+          <button type="submit" class="btn">Submit Inquiry</button>
+          <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <!-- Responsive Google Maps embed (placeholder location link) -->
+      <div class="container">
+        <div class="map-embed">
+          <h3 class="map-title">Visit Our Campus</h3>
+          <div class="map-frame">
+            <iframe
+              src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3553.769061891583!2d88.25874987512526!3d27.037462454718952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e42fd6dfccd36d%3A0x42832da19b9d030a!2sMathematical%20Coaching%20Centre!5e0!3m2!1sen!2sin!4v1772018690929!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Google map showing MCC Darjeeling area">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer with small copyright line -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 MCC Darjeeling. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp button fixed to bottom-right for quick inquiries -->
+  <a class="floating-whatsapp" href="https://wa.me/917001517589" target="_blank" rel="noopener noreferrer" aria-label="Open WhatsApp chat">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M13.601 2.326A7.854 7.854 0 0 0 6.165 12.28L4.558 17.5l5.342-1.386a7.86 7.86 0 0 0 3.701.933h.003a7.855 7.855 0 0 0-.003-15.708zm4.57 11.062c-.196.552-1.156 1.056-1.596 1.124-.402.06-.918.086-1.484-.094-.344-.11-.785-.255-1.357-.502-2.39-1.034-3.95-3.444-4.07-3.604-.117-.16-.97-1.29-.97-2.461 0-1.171.613-1.749.83-1.986.218-.237.473-.297.63-.297.158 0 .315.001.453.008.146.006.34-.055.532.408.196.474.666 1.636.725 1.754.06.118.098.255.02.413-.078.16-.117.255-.235.392-.117.138-.247.307-.352.413-.118.118-.24.246-.103.482.136.237.607 1 1.304 1.62.895.798 1.649 1.044 1.885 1.162.237.118.373.099.511-.06.136-.16.59-.689.746-.926.156-.237.315-.197.532-.118.217.079 1.377.649 1.611.767.237.118.394.177.453.276.06.098.06.571-.136 1.123z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
